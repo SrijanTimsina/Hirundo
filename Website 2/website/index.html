@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Hirundo</title>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+		<link rel="stylesheet" media="screen" href="css/style.css" />
+		<link rel="icon" type="image/x-icon" href="'graphics/logo.png'" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<!-- particles.js container -->
+		<div id="particles-js">
+			<div class="logo"></div>
+
+			<div class="menu" onclick="showMenu();" id="menu-container">
+				<span class="menu-span" id="first"></span>
+				<span class="menu-span" id="second"></span>
+				<span class="menu-span" id="third"></span>
+			</div>
+
+			<div class="back" id="back-services" onclick="backServices()">
+				back
+			</div>
+			<div
+				class="back"
+				id="back-services-menu"
+				onclick="backServiceMenu()"
+			>
+				back
+			</div>
+			<div class="back" id="back-future" onclick="backFuture()">
+				back
+			</div>
+			<div class="back" id="back-vision" onclick="backVision()">
+				back
+			</div>
+			<div class="back" id="back-contacts" onclick="backContacts()">
+				back
+			</div>
+			<div class="back" id="back-desc">back</div>
+			<div class="menu-show" id="menu-show">
+				<div class="menu-panel" onclick="showServiceMenu()">
+					whitepaper
+				</div>
+				<div class="menu-panel" onclick="showFuture()">
+					tokenomics
+				</div>
+				<div class="menu-panel" onclick="showVision()">
+					where to buy
+				</div>
+				<div class="menu-panel" onclick="showContacts()">
+					community
+				</div>
+				<div class="menu-panel" onclick="menuClose()">back</div>
+			</div>
+
+			<div class="main-div" id="main">
+				<div
+					class="first-heading main-page-heading"
+					id="first-heading"
+				>
+					<div class="horizontal-line"></div>
+					<div class="vertical-line"></div>
+					<h1>
+						<button id="embedded-link">SISTEMI EMBEDDED</button>
+					</h1>
+
+					<p class="desc-paragraph" id="embedded-paragraph">
+						L'utilizzo di sistemi embedded sta crescendo
+						esponenzialmente, soprattutto negli ultimi anni. La loro
+						funzione è quella di collegare dispositivi elettronici a
+						quelli informatici, trovando una infinita applicazione nei
+						casi d'uso.
+						<br />
+						<br />
+						Il nostro team non è solo specializzato nella
+						progettazione e sviluppo di sistemi embedded
+						personalizzati per ogni caso d'uso (dal settore
+						industriale per automatizzare processi meccanici a sistemi
+						di sicurezza intelligenti, al settore residenziale con la
+						domotica), ma grazie alle nostre conoscenze nel campo
+						della Blockchain e della Data Science, siamo capaci di
+						potenziare ed ottimizzare le nostre soluzioni, rendendole
+						idonee a qualsiasi richiesta.
+					</p>
+				</div>
+				<div
+					class="second-heading main-page-heading second-heading"
+					id="second-heading"
+				>
+					<div class="horizontal-line"></div>
+					<div class="vertical-line"></div>
+					<h1>
+						<button id="datasci-link">AI-DATA SCIENCE</button>
+					</h1>
+					<p class="desc-paragraph" id="datasci-paragraph">
+						L'Intelligenza Artificiale si concentra sulla creazione di
+						sistemi capaci di eseguire compiti che richiederebbero
+						intelligenza umana. Questi compiti possono includere
+						apprendimento, ragionamento, problem-solving, comprensione
+						del linguaggio naturale e interazione uomo-macchina.
+						Invece la Data Science si focalizza sull’estrazione e
+						sullo sviluppo di modelli matematici che utilizzano i dati
+						raccolti per migliorare, ottimizzare o analizzare un
+						determinato evento.
+						<br /><br />
+						Il nostro team è specializzato nello sviluppo di soluzioni
+						personalizzate basate su Intelligenza Artificiale o Data
+						Science, in base alla richiesta dell’utente, come modelli
+						predittivi, chatbot o funzioni obiettivo. Il nostro scopo
+						è quello di applicare questi modelli ai lavori a noi
+						commissionati al fine di migliorare, ottimizzare o
+						analizzare un determinato processo o evento.
+					</p>
+				</div>
+				<div
+					class="third-heading main-page-heading"
+					id="third-heading"
+				>
+					<div class="horizontal-line"></div>
+					<div class="vertical-line"></div>
+					<h1>
+						<button id="blockchain-link">BLOCKCHAIN</button>
+					</h1>
+					<p class="desc-paragraph" id="blockchain-paragraph">
+						La blockchain è una tecnologia di registrazione digitale
+						che permette di memorizzare dati in modo sicuro,
+						trasparente e immutabile. Essa è strutturata come una
+						catena di blocchi, ognuno dei quali contiene un insieme di
+						transazioni o dati. Ogni blocco è collegato al blocco
+						precedente attraverso una funzione crittografica, creando
+						così una catena ininterrotta che è praticamente
+						impossibile da alterare. La caratteristica distintiva
+						della blockchain è il suo meccanismo di consenso
+						decentralizzato. Invece di affidare la validazione delle
+						transazioni a una singola entità centrale (come una banca
+						o un governo), la blockchain utilizza una rete di nodi
+						(computer) che collaborano per convalidare e registrare le
+						transazioni. Questo rende il sistema estremamente
+						resistente a frodi, attacchi e manipolazioni.
+						<br /><br />
+						Il nostro team ha un forte background nello sviluppo di
+						applicativi blockchain con cui abbiamo realizzato app
+						decentralizzate, sistemi di supply chain e applicazioni
+						ibride di blockchain e Data Analysis.
+					</p>
+				</div>
+				<div class="fourth-heading main-page-heading">
+					<div class="horizontal-line long"></div>
+					<h3>Clicca su una voce per saperne di più.</h3>
+				</div>
+			</div>
+
+			<div class="container" id="future">
+				<div class="title">I Social Media sono solo l’inizio.</div>
+				<div class="paragraph">
+					<br />
+
+					Da quando il nostro progetto ha avuto inizio, nel 2018, la
+					convinzione di quale fosse lo scopo di Hirundo è rimasta
+					sempre lo stessa: Dare vita ad un’attività che offrisse
+					servizi di elevata qualità ed efficenza, avendo come Core
+					dei propri progetti l’Intelligenza Artificiale e tutti i
+					suoi benefici. <br />
+					I primi servizi che Hirundo ha offerto sono analisi di
+					Social Media rese più accurate e utili dall’utilizzo di
+					algoritmi di Machine Learning. Tuttavia, per noi,
+					l’integrazione dell’Intelligenza Artificiale nei Social
+					Media rappresenta solo un trampolino di lancio: La nostra
+					ambizione è quella di dare vita a servizi e prodotti che
+					possano rendere la quotidianità più semplice ed il mondo un
+					posto più efficiente, ed è per questo motivo che abbiamo in
+					cantiere diversi progetti in vari ambiti, che gradualmente
+					svilupperemo al massimo delle nostre capacità per realizzare
+					il nostro obiettivo.<br />
+					Durante il nostro lavoro quotidiano, abbiamo trovato di
+					grande ispirazione per la costruzione della nostra identità,
+					la Natura: il nostro nome, il nostro logo e la nostra vision
+					trovano profonde radici nella natura. Per questo motivo,
+					ambiamo ad avere una rilevanza sempre maggiore per poter
+					contribuire concretamente a limitare i problemi di
+					deforestazione e di estinzione di alcune razze di animali.
+					Come puoi vedere, questo pensiero non è scritto sulla nostra
+					home page o su una delle nostre pubblicità, ma in poche
+					righe di una pagina secondaria. Ciò per dire che il nostro
+					non è Marketing, ma crediamo realmente in un mondo più
+					semplice e puro, in cui la Natura si prende gli spazi che le
+					spettano.<br />
+				</div>
+			</div>
+
+			<div class="container" id="vision">
+				<div class="title">
+					Future made simple with Artificial Intelligence
+				</div>
+				<div class="paragraph">
+					<br />Even if Hirundo services starts from Social Media
+					analysis, our plans are of improving the quality and
+					expanding the suite.
+				</div>
+			</div>
+
+			<div class="container" id="contacts">
+				<div class="title">Ti aspettiamo per un caffè digitale.</div>
+				<div class="paragraph">
+					<br />Siamo fortemente fiduciosi nella crescita collettiva,
+					nell'informalità e nel continuo confronto. Per questo,
+					saremmo veramente felici di ascoltare le tue idee, pareri e
+					critiche, o di sapere che tu sia interessato ad uno dei
+					nostri servizi. Puoi tranquillamente contattarci per una
+					chiacchierata ad uno dei seguenti recapiti: <br /><br />
+					email:
+					<br /><br />
+					Pagina Facebook
+					<br /><br />
+					Pagina Instagram
+					<br />
+				</div>
+			</div>
+
+			<!-- scripts -->
+			<script src="../particles.js"></script>
+			<script src="js/app.js"></script>
+			<script src="./js/index.js"></script>
+			<!-- stats.js -->
+			<script>
+				var count_particles, stats, update;
+				stats = new Stats();
+				stats.setMode(0);
+				stats.domElement.style.position = "absolute";
+				stats.domElement.style.left = "0px";
+				stats.domElement.style.top = "0px";
+				document.body.appendChild(stats.domElement);
+				count_particles = document.querySelector(
+					".js-count-particles"
+				);
+				update = function () {
+					stats.begin();
+					stats.end();
+					if (
+						window.pJSDom[0].pJS.particles &&
+						window.pJSDom[0].pJS.particles.array
+					) {
+						count_particles.innerText =
+							window.pJSDom[0].pJS.particles.array.length;
+					}
+					requestAnimationFrame(update);
+				};
+				requestAnimationFrame(update);
+			</script>
+
+			<script type="text/javascript">
+				function showMenu() {
+					var main = document.getElementById("main");
+					var menu = document.getElementById("menu-show");
+
+					main.style.opacity = "0";
+					menu.style.opacity = "1";
+					menu.style.display = "Block";
+
+					setTimeout(() => {
+						main.style.display = "None";
+					}, 300);
+				}
+			</script>
+
+			<script type="text/javascript">
+				function menuClose() {
+					var main = document.getElementById("main");
+					var menu = document.getElementById("menu-show");
+
+					main.style.opacity = "1";
+					menu.style.opacity = "0";
+					main.style.display = "Block";
+
+					setTimeout(() => {
+						menu.style.display = "None";
+					}, 300);
+				}
+			</script>
+
+			<script type="text/javascript">
+				function backServices() {
+					var main = document.getElementById("main");
+					var services = document.getElementById("services");
+					var menu = document.getElementById("menu-container");
+					var back = document.getElementById("back-services");
+
+					main.style.display = "Block";
+					menu.style.display = "Block";
+					main.style.opacity = "1";
+					services.style.opacity = "0";
+					back.style.display = "None";
+
+					setTimeout(() => {
+						services.style.display = "None";
+					}, 300);
+				}
+			</script>
+
+			<script type="text/javascript">
+				function showFuture() {
+					var future = document.getElementById("future");
+					var menu = document.getElementById("menu-container");
+					var menuc = document.getElementById("menu-show");
+					var back = document.getElementById("back-future");
+
+					future.style.display = "Block";
+					future.style.opacity = "1";
+					menu.style.display = "None";
+					menuc.style.opacity = "0";
+					back.style.display = "Block";
+
+					setTimeout(() => {
+						main.style.display = "None";
+					}, 300);
+				}
+			</script>
+
+			<script type="text/javascript">
+				function backFuture() {
+					var future = document.getElementById("future");
+					var menu = document.getElementById("menu-container");
+					var menuc = document.getElementById("menu-show");
+					var back = document.getElementById("back-future");
+
+					menuc.style.display = "Block";
+					menuc.style.opacity = "1";
+					menu.style.display = "Block";
+					future.style.opacity = "0";
+					back.style.display = "None";
+
+					setTimeout(() => {
+						future.style.display = "None";
+					}, 300);
+				}
+			</script>
+
+			<script type="text/javascript">
+				function showVision() {
+					var future = document.getElementById("vision");
+					var menu = document.getElementById("menu-container");
+					var menuc = document.getElementById("menu-show");
+					var back = document.getElementById("back-vision");
+
+					future.style.display = "Block";
+					future.style.opacity = "1";
+					menu.style.display = "None";
+					menuc.style.opacity = "0";
+					back.style.display = "Block";
+
+					setTimeout(() => {
+						main.style.display = "None";
+					}, 300);
+				}
+			</script>
+
+			<script type="text/javascript">
+				function backVision() {
+					var future = document.getElementById("vision");
+					var menu = document.getElementById("menu-container");
+					var menuc = document.getElementById("menu-show");
+					var back = document.getElementById("back-vision");
+
+					menuc.style.display = "Block";
+					menuc.style.opacity = "1";
+					menu.style.display = "Block";
+					future.style.opacity = "0";
+					back.style.display = "None";
+
+					setTimeout(() => {
+						future.style.display = "None";
+					}, 300);
+				}
+			</script>
+
+			<script type="text/javascript">
+				function showContacts() {
+					var future = document.getElementById("contacts");
+					var menu = document.getElementById("menu-container");
+					var menuc = document.getElementById("menu-show");
+					var back = document.getElementById("back-contacts");
+
+					future.style.display = "Block";
+					future.style.opacity = "1";
+					menu.style.display = "None";
+					menuc.style.opacity = "0";
+					back.style.display = "Block";
+
+					setTimeout(() => {
+						main.style.display = "None";
+					}, 300);
+				}
+			</script>
+
+			<script type="text/javascript">
+				function backContacts() {
+					var future = document.getElementById("contacts");
+					var menu = document.getElementById("menu-container");
+					var menuc = document.getElementById("menu-show");
+					var back = document.getElementById("back-contacts");
+
+					menuc.style.display = "Block";
+					menuc.style.opacity = "1";
+					menu.style.display = "Block";
+					future.style.opacity = "0";
+					back.style.display = "None";
+
+					setTimeout(() => {
+						future.style.display = "None";
+					}, 300);
+				}
+			</script>
+			<script type="text/javascript">
+				function showServiceMenu() {
+					var future = document.getElementById("services");
+					var menu = document.getElementById("menu-container");
+					var menuc = document.getElementById("menu-show");
+					var back = document.getElementById("back-services-menu");
+
+					future.style.display = "Block";
+					future.style.opacity = "1";
+					menu.style.display = "None";
+					menuc.style.opacity = "0";
+					back.style.display = "Block";
+
+					setTimeout(() => {
+						main.style.display = "None";
+					}, 300);
+				}
+			</script>
+
+			<script type="text/javascript">
+				function backServiceMenu() {
+					var future = document.getElementById("services");
+					var menu = document.getElementById("menu-container");
+					var menuc = document.getElementById("menu-show");
+					var back = document.getElementById("back-services-menu");
+
+					menuc.style.display = "Block";
+					menuc.style.opacity = "1";
+					menu.style.display = "Block";
+					future.style.opacity = "0";
+					back.style.display = "None";
+
+					setTimeout(() => {
+						future.style.display = "None";
+					}, 300);
+				}
+			</script>
+		</div>
+	</body>
+</html>
