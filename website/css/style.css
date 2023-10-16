@@ -432,6 +432,7 @@ canvas {
 .main-div h1 button {
 	font-family: "Raleway", sans-serif;
 	font-size: 30px;
+	font-weight: 550;
 	color: #303030;
 	border: none;
 	outline: none;
@@ -458,7 +459,7 @@ canvas {
 }
 .fourth-heading h3 {
 	margin-left: 70px;
-	font-weight: lighter;
+	font-weight: 100;
 	line-height: 70px;
 	font-size: 16px;
 	opacity: 0;
@@ -483,6 +484,38 @@ canvas {
 	cursor: pointer;
 	height: 30px;
 	position: absolute;
+}
+
+.language-picker {
+	display: flex;
+	position: absolute;
+	right: 60px;
+	top: 70px;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.language-picker button {
+	border-radius: 80px;
+	width: 40px;
+	height: 20px;
+	border: 1px solid black;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	position: relative;
+}
+.language-picker button .button {
+	background-color: rgb(98, 213, 206);
+	height: 18px;
+	width: 18px;
+	border-radius: 80px;
+	transform: translateX(20px);
+	transition: all 500ms;
+}
+.language-picker button .button.eng {
+	transform: translateX(0px);
 }
 
 .first-heading .horizontal-line {

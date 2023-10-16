@@ -29,7 +29,13 @@
 				<span class="menu-span" id="second"></span>
 				<span class="menu-span" id="third"></span>
 			</div>
-
+			<div class="language-picker">
+				<p>ENG</p>
+				<button id="language-switch-btn">
+					<div class="button" id="language-icon"></div>
+				</button>
+				<p>ITA</p>
+			</div>
 			<div class="back" id="back-services" onclick="backServices()">
 				back
 			</div>
@@ -51,17 +57,14 @@
 			</div>
 			<div class="back" id="back-desc">back</div>
 			<div class="menu-show" id="menu-show">
-				<div class="menu-panel" onclick="showServiceMenu()">
-					whitepaper
-				</div>
-				<div class="menu-panel" onclick="showFuture()">
-					tokenomics
-				</div>
-				<div class="menu-panel" onclick="showVision()">
-					where to buy
-				</div>
-				<div class="menu-panel" onclick="showContacts()">
-					community
+				<div class="menu-panel" onclick="showVision()">vision</div>
+				<div class="menu-panel" onclick="showFuture()">portfolio</div>
+				<div
+					class="menu-panel"
+					onclick="showContacts()"
+					id="menu-contact"
+				>
+					contatti
 				</div>
 				<div class="menu-panel" onclick="menuClose()">back</div>
 			</div>
