@@ -61,9 +61,10 @@ applicativi blockchain con cui abbiamo realizzato app
 decentralizzate, sistemi di supply chain e applicazioni
 ibride di blockchain e Data Analysis.`,
 	"contatti",
+	"Clicca su una voce per saperne di più.",
 ];
 const english = [
-	"Embedded Systems",
+	"EMBEDDED SYSTEMS",
 	`The use of embedded systems is growing exponentially, especially in recent years. Their function is to connect electronic devices with computer systems, finding endless applications in use cases.
 
 <br /><br />
@@ -80,6 +81,7 @@ Our team is not only specialized in the design and development of custom embedde
 
 	Our team has a strong background in the development of blockchain applications, with which we have created decentralized apps, supply chain systems, and hybrid applications of blockchain and Data Analysis.`,
 	"contacts",
+	"Click to know more...",
 ];
 
 const translationEl = [
@@ -88,6 +90,7 @@ const translationEl = [
 	document.getElementById("datasci-paragraph"),
 	document.getElementById("blockchain-paragraph"),
 	document.getElementById("menu-contact"),
+	document.getElementById("fourth-title"),
 ];
 
 languageBtn.addEventListener("click", () => {

@@ -417,8 +417,6 @@ canvas {
 	top: 35%;
 	left: 50%;
 	width: 450px;
-	/* -ms-transform: translateY(-50%); */
-	/* transform: translateY(-50%); */
 	transform: translateY(0px);
 	-ms-transform: translateX(-30%);
 	transform: translateX(-30%);
@@ -459,10 +457,10 @@ canvas {
 }
 .fourth-heading h3 {
 	margin-left: 70px;
-	font-weight: 100;
 	line-height: 70px;
 	font-size: 16px;
 	opacity: 0;
+	font-weight: lighter;
 }
 .main-div.desc {
 	top: 20%;
@@ -507,7 +505,7 @@ canvas {
 	position: relative;
 }
 .language-picker button .button {
-	background-color: rgb(98, 213, 206);
+	background-color: #000;
 	height: 18px;
 	width: 18px;
 	border-radius: 80px;
