@@ -415,7 +415,7 @@ canvas {
 .main-div {
 	position: absolute;
 	top: 35%;
-	left: 48%;
+	left: 50%;
 	width: 450px;
 	/* -ms-transform: translateY(-50%); */
 	/* transform: translateY(-50%); */
