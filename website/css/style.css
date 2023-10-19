@@ -303,17 +303,16 @@ canvas {
 	width: 260px;
 	height: 60px;
 	top: 45px;
-	left: 50%;
-	margin-left: -115px;
+
 	background-image: url("../graphics/logoType.svg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
-@media screen and (max-width: 460px) {
+@media screen and (min-width: 460px) {
 	.logo {
-		transform: translate(20px, -45px);
+		left: 50%;
+		margin-left: -115px;
 	}
 }
 
@@ -510,6 +509,12 @@ canvas {
 	justify-content: center;
 	align-items: center;
 }
+.menu-show .language-picker {
+	right: 0;
+	left: 0;
+	top: -20px;
+	display: none;
+}
 @media screen and (max-width: 460px) {
 	.main-div h1 button {
 		font-size: 24px;
@@ -520,6 +525,14 @@ canvas {
 	}
 	.language-picker {
 		right: 30px;
+		display: none;
+	}
+	.menu-show .language-picker {
+		display: flex;
+	}
+	.logo {
+		right: -50px;
+		margin-left: 0;
 	}
 }
 .language-picker button {

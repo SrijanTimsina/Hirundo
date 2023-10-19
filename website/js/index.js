@@ -9,8 +9,8 @@ const headingParagraphs = document.querySelectorAll(
 );
 let itaLanguage = true;
 
-const languageBtn = document.getElementById("language-switch-btn");
-const languageIcon = document.getElementById("language-icon");
+const languageBtn = document.querySelectorAll("#language-switch-btn");
+const languageIcon = document.querySelectorAll("#language-icon");
 
 const italian = [
 	"Sistemi Embedded",
@@ -93,21 +93,22 @@ const translationEl = [
 	document.getElementById("fourth-title"),
 ];
 
-languageBtn.addEventListener("click", () => {
-	itaLanguage = !itaLanguage;
-	if (itaLanguage) {
-		languageIcon.classList.remove("eng");
-		for (let i = 0; i < translationEl.length; i++) {
-			translationEl[i].innerHTML = italian[i];
+languageBtn.forEach((el) =>
+	el.addEventListener("click", () => {
+		itaLanguage = !itaLanguage;
+		if (itaLanguage) {
+			languageIcon.forEach((el) => el.classList.remove("eng"));
+			for (let i = 0; i < translationEl.length; i++) {
+				translationEl[i].innerHTML = italian[i];
+			}
+		} else {
+			languageIcon.forEach((el) => el.classList.add("eng"));
+			for (let i = 0; i < translationEl.length; i++) {
+				translationEl[i].innerHTML = english[i];
+			}
 		}
-	} else {
-		languageIcon.classList.add("eng");
-		for (let i = 0; i < translationEl.length; i++) {
-			translationEl[i].innerHTML = english[i];
-		}
-	}
-});
-
+	})
+);
 embeddedLinkBtn.addEventListener("click", () => {
 	elementsDisplay("none");
 	paragraphShow("first-heading");
@@ -150,4 +151,3 @@ document.getElementById("back-desc").addEventListener("click", () => {
 	document.getElementById("back-desc").style.display = "none";
 	elementsDisplay("block");
 });
-const backButton = () => {};
