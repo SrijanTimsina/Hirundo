@@ -81,7 +81,7 @@ Our team is not only specialized in the design and development of custom embedde
 
 	Our team has a strong background in the development of blockchain applications, with which we have created decentralized apps, supply chain systems, and hybrid applications of blockchain and Data Analysis.`,
 	"contacts",
-	"Click to know more...",
+	"Click to know more.",
 ];
 
 const translationEl = [
