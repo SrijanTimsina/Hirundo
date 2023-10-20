@@ -545,14 +545,17 @@ canvas {
 		left: 5%;
 		margin-left: -2.5%;
 	}
-	.menu {
-		left: 20px;
-	}
+
 	.back {
 		left: 20px;
 	}
 	.logo {
-		right: 10px;
+		margin-top: 2px;
+		left: 20px;
+	}
+	.menu {
+		left: auto;
+		right: 20px;
 	}
 	.language-picker {
 		right: 30px;
@@ -570,7 +573,7 @@ canvas {
 	.logo {
 		width: 220px;
 		height: 40px;
-		margin-top: 15px;
+		margin-top: 12px;
 	}
 }
 .first-heading .horizontal-line {
