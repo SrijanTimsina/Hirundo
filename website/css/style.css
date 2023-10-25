@@ -229,7 +229,7 @@ canvas {
 }
 .back {
 	position: absolute;
-	top: 57px;
+	top: 65px;
 	left: 40px;
 	font-family: "Raleway Light", sans-serif;
 	font-size: 23px;
@@ -301,7 +301,7 @@ canvas {
 /*-------BODY--------*/
 .logo {
 	position: absolute;
-	width: 266px;
+	width: 290px;
 	height: 60px;
 	top: 45px;
 	background-image: url("../graphics/logoType.png");
@@ -546,9 +546,6 @@ canvas {
 		margin-left: -2.5%;
 	}
 
-	.back {
-		left: 20px;
-	}
 	.logo {
 		margin-top: 2px;
 		left: 20px;
@@ -567,6 +564,10 @@ canvas {
 
 	.desc-paragraph {
 		font-weight: 100;
+	}
+	.back {
+		right: 20px;
+		left: auto;
 	}
 }
 @media screen and (max-width: 370px) {
