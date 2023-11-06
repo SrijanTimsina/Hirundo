@@ -64,6 +64,58 @@ ibride di blockchain e Data Analysis.`,
 	"Clicca su una voce per saperne di più.",
 	"SEMPLICITÀ, SICUREZZA E PERFORMANCE MAI COSÌ ELEVATE.",
 	"<br />Il team di Hirundo combina un'ampia seniority con un solido background accademico, specializzandosi in sistemi embedded, blockchain e AI/Data Science. I sistemi embedded collegano dispositivi elettromeccanici al mondo digitale, la blockchain garantisce un'archiviazione sicura e trasparente dei dati e l'AI/Data Science trasforma questi dati in soluzioni ottimizzate. Con Hirundo, uniamo queste competenze per rivoluzionare e migliorare processi e dispositivi nei seguenti settori:",
+	"DOMOTICA",
+	"INDUSTRIA",
+	"AGRICOLTURA",
+	"CONSULENZA",
+	`La domotica consente ad utenti e gestori una
+	ottimizzazzione delle strutture, risparmio energetico
+	ed una migliore esperienza al suo interno. Tecnologie
+	come l'AI e la Blockchain consentono alla domotica di
+	essere ancora più flessibile e sicura. Ci occupiamo
+	sia di sistemi singolari (come automatizzazione porte
+	di sicurezza, sistemi di controllo climatico
+	personalizzabili e scenari di luci regolabili) che di
+	automatizzazione di aperture serrande e cancelli
+	esterni tramite smartphone, personalizzabili con
+	sistemi di gestioni condominiali o per ogni tipologia
+	di utenza.`,
+	`La domotica consente ad utenti e gestori una
+	ottimizzazzione delle strutture, risparmio energetico
+	ed una migliore esperienza al suo interno. Tecnologie
+	come l'AI e la Blockchain consentono alla domotica di
+	essere ancora più flessibile e sicura. Ci occupiamo
+	sia di sistemi singolari (come automatizzazione porte
+	di sicurezza, sistemi di controllo climatico
+	personalizzabili e scenari di luci regolabili) che di
+	automatizzazione di aperture serrande e cancelli
+	esterni tramite smartphone, personalizzabili con
+	sistemi di gestioni condominiali o per ogni tipologia
+	di utenza.`,
+	`La domotica consente ad utenti e gestori una
+	ottimizzazzione delle strutture, risparmio energetico
+	ed una migliore esperienza al suo interno. Tecnologie
+	come l'AI e la Blockchain consentono alla domotica di
+	essere ancora più flessibile e sicura. Ci occupiamo
+	sia di sistemi singolari (come automatizzazione porte
+	di sicurezza, sistemi di controllo climatico
+	personalizzabili e scenari di luci regolabili) che di
+	automatizzazione di aperture serrande e cancelli
+	esterni tramite smartphone, personalizzabili con
+	sistemi di gestioni condominiali o per ogni tipologia
+	di utenza.`,
+	`La domotica consente ad utenti e gestori una
+	ottimizzazzione delle strutture, risparmio energetico
+	ed una migliore esperienza al suo interno. Tecnologie
+	come l'AI e la Blockchain consentono alla domotica di
+	essere ancora più flessibile e sicura. Ci occupiamo
+	sia di sistemi singolari (come automatizzazione porte
+	di sicurezza, sistemi di controllo climatico
+	personalizzabili e scenari di luci regolabili) che di
+	automatizzazione di aperture serrande e cancelli
+	esterni tramite smartphone, personalizzabili con
+	sistemi di gestioni condominiali o per ogni tipologia
+	di utenza.`,
 ];
 const english = [
 	"EMBEDDED SYSTEMS",
@@ -86,6 +138,14 @@ Our team is not only specialized in the design and development of custom embedde
 	"Click to know more.",
 	"English Title",
 	"English Paragraph",
+	"HOME AUTOMATION",
+	"INDUSTRY",
+	"AGRICOLTURE",
+	"CONSULTANCY",
+	"Home automation allows users and managers to optimize structures, save energy, and improve the experience within them. Technologies like AI and Blockchain make home automation even more flexible and secure. We deal with both singular systems (such as security door automation, customizable climate control systems, and adjustable lighting scenarios) and the automation of external shutters and gates via smartphone, customizable with condominium management systems or for any type of user.",
+	"The industry can benefit from our technologies in various ways: we can create displays to connect to industrial machines for the detection and storage of production data (in compliance with Industry 4.0), customizable security systems with Gas and Fire detection based on dual sensor authentication and Computer Vision, automation of industrial machinery, and tailored traceability systems.",
+	"Agriculture is still a developing field from a technological standpoint: we can design and develop automation systems for irrigation plants that adjust or halt the flow based on soil moisture. We can also develop systems with dual sensor authentication and Machine Learning capabilities that quickly detect leaks in buried pipes.",
+	"Many companies have expertise in embedded systems but fall short in developing areas such as AI and Blockchain. We offer consulting services to create customized software solutions in these sectors for businesses and clients of all kinds.",
 ];
 
 const translationEl = [
@@ -97,6 +157,14 @@ const translationEl = [
 	document.getElementById("fourth-title"),
 	document.getElementById("vision-title"),
 	document.getElementById("vision-paragraph"),
+	document.getElementById("first-text"),
+	document.getElementById("second-text"),
+	document.getElementById("third-text"),
+	document.getElementById("fourth-text"),
+	document.getElementById("first-paragraph"),
+	document.getElementById("second-paragraph"),
+	document.getElementById("third-paragraph"),
+	document.getElementById("fourth-paragraph"),
 ];
 
 languageBtn.forEach((el) =>

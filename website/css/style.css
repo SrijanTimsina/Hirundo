@@ -596,6 +596,7 @@ canvas {
 }
 .timeline-paragraph-text {
 	margin-bottom: 40px;
+	line-height: 20px;
 }
 .timeline-paragraph.show-line {
 	/* max-height: 240px; */
