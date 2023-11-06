@@ -62,6 +62,8 @@ decentralizzate, sistemi di supply chain e applicazioni
 ibride di blockchain e Data Analysis.`,
 	"contatti",
 	"Clicca su una voce per saperne di più.",
+	"SEMPLICITÀ, SICUREZZA E PERFORMANCE MAI COSÌ ELEVATE.",
+	"<br />Il team di Hirundo combina un'ampia seniority con un solido background accademico, specializzandosi in sistemi embedded, blockchain e AI/Data Science. I sistemi embedded collegano dispositivi elettromeccanici al mondo digitale, la blockchain garantisce un'archiviazione sicura e trasparente dei dati e l'AI/Data Science trasforma questi dati in soluzioni ottimizzate. Con Hirundo, uniamo queste competenze per rivoluzionare e migliorare processi e dispositivi nei seguenti settori:",
 ];
 const english = [
 	"EMBEDDED SYSTEMS",
@@ -82,6 +84,8 @@ Our team is not only specialized in the design and development of custom embedde
 	Our team has a strong background in the development of blockchain applications, with which we have created decentralized apps, supply chain systems, and hybrid applications of blockchain and Data Analysis.`,
 	"contacts",
 	"Click to know more.",
+	"English Title",
+	"English Paragraph",
 ];
 
 const translationEl = [
@@ -91,6 +95,8 @@ const translationEl = [
 	document.getElementById("blockchain-paragraph"),
 	document.getElementById("menu-contact"),
 	document.getElementById("fourth-title"),
+	document.getElementById("vision-title"),
+	document.getElementById("vision-paragraph"),
 ];
 
 languageBtn.forEach((el) =>
@@ -151,3 +157,36 @@ document.getElementById("back-desc").addEventListener("click", () => {
 	document.getElementById("back-desc").style.display = "none";
 	elementsDisplay("block");
 });
+
+const heightFunction = (el) => {
+	document.querySelectorAll(`.timeline-paragraph`).forEach((el) => {
+		el.style.maxHeight = 0;
+		el.classList.remove("show-line");
+	});
+	document
+		.getElementById(`${el}-timeline-paragraph`)
+		.classList.add("show-line");
+	document.querySelector(".show-line").style.maxHeight =
+		document.getElementById(`${el}-timeline-paragraph`).scrollHeight +
+		"px";
+};
+document
+	.getElementById("first-timeline-title")
+	.addEventListener("click", () => {
+		heightFunction("first");
+	});
+document
+	.getElementById("second-timeline-title")
+	.addEventListener("click", () => {
+		heightFunction("second");
+	});
+document
+	.getElementById("third-timeline-title")
+	.addEventListener("click", () => {
+		heightFunction("third");
+	});
+document
+	.getElementById("fourth-timeline-title")
+	.addEventListener("click", () => {
+		heightFunction("fourth");
+	});

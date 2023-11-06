@@ -537,6 +537,70 @@ canvas {
 .language-picker button .button.eng {
 	transform: translateX(0px);
 }
+
+#vision-title {
+	font-size: 28px;
+	line-height: 40px;
+}
+.paragraph-circle {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	left: 0;
+	margin-top: 3px;
+	border-radius: 100px;
+	background: transparent;
+	border: 2px solid black;
+}
+/* .paragraph-line {
+	height: 50px;
+	width: 2px;
+	background-color: black;
+	position: absolute;
+	left: 50%;
+	margin-left: -1px;
+	bottom: -50px;
+} */
+#vision-paragraph {
+	font-family: "Raleway Light", sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	margin-top: 16px;
+}
+
+.timeline {
+	margin-top: 40px;
+}
+.timeline .timeline-el {
+	padding: 0 0 0 40px;
+}
+
+.timeline .timeline-title {
+	font-size: 24px;
+	font-family: "Raleway ExtraBold", sans-serif;
+	font-weight: 700;
+	margin-top: -5px;
+}
+.timeline-paragraph {
+	margin-left: -41px;
+	padding-left: 41px;
+	max-height: 0px;
+	margin-top: -5px;
+	overflow: hidden;
+	border-left: 2px solid black;
+	padding-top: 40px;
+	transition: max-height 300ms linear;
+}
+.timeline-paragraph-last {
+	border: none;
+}
+.timeline-paragraph-text {
+	margin-bottom: 40px;
+}
+.timeline-paragraph.show-line {
+	/* max-height: 240px; */
+}
+
 @media screen and (max-width: 600px) {
 	.container {
 		left: 0;
