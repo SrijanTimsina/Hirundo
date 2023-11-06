@@ -598,9 +598,6 @@ canvas {
 	margin-bottom: 40px;
 	line-height: 20px;
 }
-.timeline-paragraph.show-line {
-	/* max-height: 240px; */
-}
 
 @media screen and (max-width: 600px) {
 	.container {

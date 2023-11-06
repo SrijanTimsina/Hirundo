@@ -523,6 +523,12 @@
 					var menuc = document.getElementById("menu-show");
 					var back = document.getElementById("back-vision");
 
+					document
+						.querySelectorAll(`.timeline-paragraph`)
+						.forEach((el) => {
+							el.style.maxHeight = 0;
+							el.classList.remove("show-line");
+						});
 					menuc.style.display = "Block";
 					menuc.style.opacity = "1";
 					menu.style.display = "Block";
