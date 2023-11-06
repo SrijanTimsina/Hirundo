@@ -227,16 +227,22 @@ document.getElementById("back-desc").addEventListener("click", () => {
 });
 
 const heightFunction = (el) => {
+	const paragraph = document.getElementById(
+		`${el}-timeline-paragraph`
+	);
+	if (paragraph.classList.contains("show-line")) {
+		paragraph.style.maxHeight = 0;
+		paragraph.classList.remove("show-line");
+		return;
+	}
 	document.querySelectorAll(`.timeline-paragraph`).forEach((el) => {
 		el.style.maxHeight = 0;
 		el.classList.remove("show-line");
 	});
-	document
-		.getElementById(`${el}-timeline-paragraph`)
-		.classList.add("show-line");
-	document.querySelector(".show-line").style.maxHeight =
-		document.getElementById(`${el}-timeline-paragraph`).scrollHeight +
-		"px";
+	paragraph.classList.add("show-line");
+	document.querySelector(
+		".show-line"
+	).style.maxHeight = `${paragraph.scrollHeight}px`;
 };
 document
 	.getElementById("first-timeline-title")
