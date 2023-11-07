@@ -552,15 +552,7 @@ canvas {
 	background: transparent;
 	border: 2px solid black;
 }
-/* .paragraph-line {
-	height: 50px;
-	width: 2px;
-	background-color: black;
-	position: absolute;
-	left: 50%;
-	margin-left: -1px;
-	bottom: -50px;
-} */
+
 #vision-paragraph {
 	font-family: "Raleway Light", sans-serif;
 	font-weight: 100;
@@ -588,14 +580,14 @@ canvas {
 	margin-top: -5px;
 	overflow: hidden;
 	border-left: 2px solid black;
-	padding-top: 40px;
+	padding-top: 60px;
 	transition: max-height 300ms linear;
 }
 .timeline-paragraph-last {
 	border: none;
 }
 .timeline-paragraph-text {
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 	line-height: 20px;
 }
 

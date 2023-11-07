@@ -13,7 +13,7 @@ const languageBtn = document.querySelectorAll("#language-switch-btn");
 const languageIcon = document.querySelectorAll("#language-icon");
 
 const italian = [
-	"Sistemi Embedded",
+	"SISTEMI EMBEDDED",
 	`L'utilizzo di sistemi embedded sta crescendo
 esponenzialmente, soprattutto negli ultimi anni. La loro
 funzione è quella di collegare dispositivi elettronici a
@@ -137,7 +137,7 @@ Our team is not only specialized in the design and development of custom embedde
 	"contacts",
 	"Click to know more.",
 	"English Title",
-	"English Paragraph",
+	"The Hirundo team combines extensive seniority with a solid academic background, specializing in embedded systems, blockchain, and AI/Data Science. Embedded systems connect electromechanical devices to the digital world, blockchain ensures secure and transparent data storage, and AI/Data Science transforms this data into optimized solutions. With Hirundo, we unite these skills to revolutionize and improve processes and devices in the following sectors:",
 	"HOME AUTOMATION",
 	"INDUSTRY",
 	"AGRICOLTURE",
