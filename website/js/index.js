@@ -136,7 +136,7 @@ Our team is not only specialized in the design and development of custom embedde
 	Our team has a strong background in the development of blockchain applications, with which we have created decentralized apps, supply chain systems, and hybrid applications of blockchain and Data Analysis.`,
 	"contacts",
 	"Click to know more.",
-	"English Title",
+	"Simplicity, Safety and Performance never so high",
 	"The Hirundo team combines extensive seniority with a solid academic background, specializing in embedded systems, blockchain, and AI/Data Science. Embedded systems connect electromechanical devices to the digital world, blockchain ensures secure and transparent data storage, and AI/Data Science transforms this data into optimized solutions. With Hirundo, we unite these skills to revolutionize and improve processes and devices in the following sectors:",
 	"HOME AUTOMATION",
 	"INDUSTRY",
